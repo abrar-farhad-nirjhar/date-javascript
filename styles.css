@@ -1,0 +1,34 @@
+.clock{
+    margin: auto;
+    width: 700px;
+    height:233.33px;
+    border: 1px solid black
+}
+.row-box{
+    padding: 20px;
+    height: 233.33px;
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: 100px */
+}
+
+.center-box{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.content{
+    margin-top: 35px;
+    font-size: 80px
+
+}
+.button-full{
+    width: 100%
+}
+
+.input-box{
+    width: 120px;
+    height: 100px;
+    /* background-color: white */
+    
+}

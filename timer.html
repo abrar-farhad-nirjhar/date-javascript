@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Javascript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Normal Digital Clock </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="stopwatch.html">Stop Watch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="timer.html">Timer</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                Doing Stuff With Javascript Date
+            </span>
+        </div>
+    </nav>
+    <!-- <div id="main"></div> -->
+
+    <br>
+    <br>
+    <div class="clock" id="clk">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 row-box" ><div id="hour" class="content"></div></div>
+                <div class="col-sm-4 row-box center-box" ><div id="minute" class="content"></div></div>
+                <div class="col-sm-4 row-box" ><div id="second" class="content"></div></div>
+                
+            </div> 
+
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4"><button class="btn btn-success btn-lg button-full" id="restart">Start</button></div>
+
+                <div class="col-sm-4"><button class="btn btn-info btn-lg button-full" id="pause">Pause</button></div>
+                <div class="col-sm-4"><button class="btn btn-danger btn-lg button-full" id="reset">Reset</button></div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="clock" id="tmr">
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-sm-4 row-box"><div id="hour" class="content"><input type="number"  id="input-hour"class="input-box" value="00" min="0" max="23" /></div></div>
+                    <div class="col-sm-4 row-box center-box" ><div id="minute" class="content"><input type="number"  id="input-minute"class="input-box" value="00" max="59" min="0" /></div></div>
+                    <div class="col-sm-4 row-box"><div id="second" class="content"><input type="number"  id="input-second"class="input-box" value="00" max="59" min="0"/></div></div>
+                    
+                </div> 
+    
+                <br>
+    
+                <div class="row">
+                    <div class="col-sm-12"><button class="btn btn-success btn-lg button-full" id="start" >Start</button></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    <script src="timer.js"></script>
+
+</body>
+
+</html>
